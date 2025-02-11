@@ -1,5 +1,25 @@
-## DOCUMENT RETRIEVAL SYSTEM
+# DOCUMENT RETRIEVAL SYSTEM
 
+## Overview
+The Document Retrieval System (DRS) is a web application designed to help users search for and retrieve information about lost documents. The system provides a user-friendly interface for searching documents by various criteria, including name, document type, document number, and location.
+
+## Features
+- **Search Functionality**: Users can search for their lost documents using a search bar.
+- **Responsive Design**: The application is designed to be responsive and works well on both desktop and mobile devices.
+- **Highlighting Matches**: Matching search terms are highlighted in the results for easy identification.
+- **Pagination**: Results are paginated for better usability, allowing users to navigate through large sets of documents.
+
+## 1. Landing Page (Home)
+![DRS](public/app-screenshots/home.png)
+- Users can search for their lost documents.
+
+
+
+### Prerequisites
+- PHP >= 7.3
+- Composer
+- Laravel >= 8.x
+- Node.js and npm (for front-end assets)
 
 
 

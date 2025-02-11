@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $foundDocumentsRecord = [
-        ['name' => 'Eric Gikungu Nyokabi', 'document_type' => 'Passport', 'document_id' => 'AK0252450', 'location' => 'Muranga'],
+        ['name' => 'Eric Gikungu Nyokabi', 'document_type' => 'Passport', 'document_id' => 'AK012345', 'location' => 'Muranga'],
         ['name' => 'Jane Doe', 'document_type' => 'National ID', 'document_id' => 'ID123456', 'location' => 'Nairobi'],
         ['name' => 'John Smith', 'document_type' => 'Birth Certificate', 'document_id' => 'BC987654', 'location' => 'Mombasa'],
         ['name' => 'Alice Johnson', 'document_type' => 'Passport', 'document_id' => 'AK0252451', 'location' => 'Kisumu'],
